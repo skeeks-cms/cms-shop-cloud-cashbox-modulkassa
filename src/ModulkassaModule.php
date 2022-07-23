@@ -19,5 +19,5 @@ use yii\helpers\ArrayHelper;
  */
 class ModulkassaModule extends Module
 {
-    public $controllerNamespace = 'skeeks\cms\shop\cloudkassa\modulkassa\\controllers';
+    public $controllerNamespace = 'skeeks\cms\shop\cloudkassa\modulkassa\controllers';
 }

@@ -1,7 +1,7 @@
 <?php
 return [
     'modules' => [
-        'cdek' => [
+        'modulkassa' => [
             'class' => \skeeks\cms\shop\cloudkassa\modulkassa\ModulkassaModule::class,
         ],
     ],
