@@ -299,7 +299,7 @@ class ModulkassaHandler extends CloudkassaHandler
      */
     public function getFnData()
     {
-        $key = "fn_data_".md5($this->login.":".$this->password);
+        $key = "fn_data_".md5($this->login.":".$this->password . ":" . $this->point_id);
 
         if (!$data = \Yii::$app->cache->get($key)) {
             $data = $this->_associate();
